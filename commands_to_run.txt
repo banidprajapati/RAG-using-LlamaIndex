@@ -1,0 +1,26 @@
+# To run jupyter lab
+uv run --with jupyter jupyter lab
+
+# Install required packages for RAG
+uv add llama-index
+uv add python-dotenv
+uv add openai
+
+# Optional: Install additional packages
+uv add streamlit  # For web interface
+uv add chromadb   # For vector database
+uv add pypdf      # For PDF processing
+uv add docx2txt   # For Word document processing
+
+# Create data directory
+mkdir -p data
+
+# Run the RAG notebook
+# Open rag_llamaindex.ipynb in Jupyter Lab
+
+# Environment setup
+cp .env.example .env
+# Then edit .env with your OpenAI API key
+
+--------------------
+

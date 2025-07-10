@@ -1,0 +1,15 @@
+# Core LlamaIndex
+llama-index
+
+# Embeddings via Hugging Face
+llama-index-embeddings-huggingface
+sentence-transformers
+transformers
+accelerate
+
+# Pinecone integration
+llama-index-vector-stores-pinecone
+pinecone-client
+
+# Optional: for .env loading
+python-dotenv
