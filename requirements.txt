@@ -13,3 +13,11 @@ pinecone-client
 
 # Optional: for .env loading
 python-dotenv
+
+# PDF processing for SimpleDirectoryReader
+pypdf
+
+fastapi
+
+# BM25 for sparse vector retrieval
+llama-index-retrievers-bm25
